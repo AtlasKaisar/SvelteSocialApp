@@ -1,0 +1,13 @@
+{
+  "name": "SvelteSocialApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sirv public --no-clear",
+    "dev": "svelte-kit dev",
+    "dev:frontend": "cd FrontendSvelte && npm run dev"
+  },
+  "dependencies": {
+    "svelte-routing": "^2.12.0"
+  }
+}
